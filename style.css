@@ -1,0 +1,80 @@
+body { 
+font-size: 15px;
+line-height: 1,5;
+letter-spacing: 2px;
+margin:  0;
+
+ }
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 60px;
+
+  }
+
+  h2 {
+    font-family: oswald;
+    color: black;
+    text-align: center;
+    font-size: 49px;
+    }
+
+    h3{
+      font-size:28px ;
+      text-align: center;
+      font-size: 75px;
+
+    }
+
+    h4{
+
+    font-size: 25px;
+    }
+      a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+
+        
+      }
+
+      .banner {
+background-image: url("images/mcdoback.jpeg");
+text-align: center;
+padding: 140px;
+background-size: cover;
+background-position: center;
+
+}
+#footer {
+
+  background-color: black;
+  color: ghostwhite;
+  margin: 30px;
+  padding: 15px;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  border: 10 px black;
+
+}
+
+.card-white{
+  border: 10 px black;
+  box-shadow: 10px 20px 30px darkgrey;
+  margin: 2px;
+  padding: 2px;
+  width: 200px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+
+}
+
